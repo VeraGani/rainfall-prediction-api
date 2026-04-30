@@ -47,10 +47,6 @@ Optimized for high recall (minimize missed rain events)
 ```
 
 ## Project Structure
-
-```
-## 📁 Project Structure
-
 ```
 rainfall-prediction-api/
 ├── main.py                    # FastAPI backend (cloud-deployed API)
