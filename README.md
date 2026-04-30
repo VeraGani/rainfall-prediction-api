@@ -49,11 +49,19 @@ Optimized for high recall (minimize missed rain events)
 ## Project Structure
 
 ```
-project/
-├── main.py                    # FastAPI backend
-├── app.py                     # Streamlit app
-├── requirements.txt
-├── rain_predictor_model.pkl
-├── preprocessing_info.pkl
-└── README.md
+## 📁 Project Structure
+
+```
+rainfall-prediction-api/
+├── main.py                    # FastAPI backend (cloud-deployed API)
+├── app.py                     # Streamlit web application
+├── requirements.txt           # Dependencies
+├── README.md
+├── images/                    # Screenshots for documentation
+├── rain_predictor_model.pkl   # Trained ML model (used in original version)
+├── preprocessing_info.pkl     # Feature preprocessing metadata
+├── rainfall_clean.csv         # Processed dataset
+├── Australia Rainfall.csv     # Original dataset
+├── EmergingAI_assignment_3.ipynb  # Notebook (model development)
+```
 ```
