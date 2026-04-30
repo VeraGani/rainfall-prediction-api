@@ -64,4 +64,3 @@ rainfall-prediction-api/
 ├── Australia Rainfall.csv     # Original dataset
 ├── EmergingAI_assignment_3.ipynb  # Notebook (model development)
 ```
-```
