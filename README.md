@@ -35,6 +35,8 @@ Optimized for high recall (minimize missed rain events)
 - Pandas / Scikit-learn (ML pipeline)
 
 ## Example API Request
+
+```json
 {
   "rain_mm": 2,
   "humidity_3pm": 80,
@@ -42,6 +44,7 @@ Optimized for high recall (minimize missed rain events)
   "wind_speed_3pm": 25,
   "temp_3pm": 22
 }
+```
 
 ## Project Structure
 
