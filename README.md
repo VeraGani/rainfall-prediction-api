@@ -73,3 +73,8 @@ rainfall-prediction-api/
 ├── Australia Rainfall.csv         # Original dataset
 ├── EmergingAI_assignment_3.ipynb  # Notebook (model development)
 ```
+## Possible future inprovements
+* Integrate automated data pipeline for preprocessing
+* Add logging and monitoring for API usage
+* Deploy using cloud-native services (AWS / Azure)
+* Containerization (Docker)
