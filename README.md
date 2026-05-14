@@ -47,6 +47,12 @@ Optimized for high recall (minimize missed rain events)
 - Render (cloud deployment)
 - Pandas / Scikit-learn (ML pipeline)
 
+## Possible future inprovements
+* Integrate automated data pipeline for preprocessing
+* Add logging and monitoring for API usage
+* Deploy using cloud-native services (AWS / Azure)
+* Containerization (Docker)
+
 ## Example API Request
 
 ```json
@@ -73,8 +79,4 @@ rainfall-prediction-api/
 ├── Australia Rainfall.csv         # Original dataset
 ├── EmergingAI_assignment_3.ipynb  # Notebook (model development)
 ```
-## Possible future inprovements
-* Integrate automated data pipeline for preprocessing
-* Add logging and monitoring for API usage
-* Deploy using cloud-native services (AWS / Azure)
-* Containerization (Docker)
+
