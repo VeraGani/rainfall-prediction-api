@@ -11,6 +11,14 @@ The system includes:
 A FastAPI backend for prediction services
 A Streamlit web app for user interaction
 A machine learning model built using AutoML (TPOT)
+Data preprocessing pipeline for transforming raw inputs into model-ready format
+
+## Architecture
+
+- **Backend:** FastAPI (REST API)
+- **Frontend:** Streamlit
+- **Model:** Scikit-learn (TPOT AutoML)
+- **Deployment:** Render (cloud hosting)
 
 ## Features
 
@@ -26,6 +34,11 @@ Public API accessible via URL
 Model built using TPOT AutoML
 Trained on Australian weather dataset
 Optimized for high recall (minimize missed rain events)
+
+### Data Processing
+- Input feature validation and transformation  
+- Preprocessing pipeline using Pandas and NumPy  
+- Feature alignment between training and inference  
 
 ## Technologies
 - Python
